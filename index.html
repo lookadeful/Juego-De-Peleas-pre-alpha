@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton's Cradle</title>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="Bibliotecas/matter.js"></script>
+    <script src="Bibliotecas/p5.js"></script>
+    <script src="Bibliotecas/p5.play.js"></script>
+    <script src="Bibliotecas/p5.sound.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyB7HHJXlFuhenj6CSDSYgzohgBklXB49p0",
+        authDomain: "juego-de-peleas-bbc01.firebaseapp.com",
+        databaseURL: "https://juego-de-peleas-bbc01-default-rtdb.firebaseio.com",
+        projectId: "juego-de-peleas-bbc01",
+        storageBucket: "juego-de-peleas-bbc01.appspot.com",
+        messagingSenderId: "975041205234",
+        appId: "1:975041205234:web:984fbf6d6ebed43db4516b"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="form.js"></script>
+    <script src="game.js"></script>
+    <script src="player.js"></script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
